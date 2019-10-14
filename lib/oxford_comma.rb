@@ -20,8 +20,8 @@ def oxford_comma(array)
      array[counter] = array[counter] + ", and "
      counter += 1
      array.join
+     array
      end
    end
  end
- array
 end
