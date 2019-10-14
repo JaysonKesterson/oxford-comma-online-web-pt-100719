@@ -13,7 +13,7 @@ def oxford_comma(array)
    array.join
  else 
    while counter < array.length do
-     if array[counter] != array[-1]
+     if array[counter] != array[-2]
      array[counter] = array [counter] + ", "
      counter += 1
      array.join
