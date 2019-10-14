@@ -16,7 +16,7 @@ def oxford_comma(array)
      if array[counter] != array[-1]
      array[counter] = array [counter] + ", "
      counter += 1
-    return array.join
+     array.join
      else
      array[counter] = array[counter] + ", and "
      counter += 1
