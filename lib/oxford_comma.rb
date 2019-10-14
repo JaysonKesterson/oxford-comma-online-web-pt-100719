@@ -12,7 +12,7 @@ def oxford_comma(array)
    array[1] = array[1] + ", and "
    array.join
  else 
-   while array.length < counter do
+   while array.length > counter do
      if array[counter] != array[-1]
      array[counter] = array [counter] + ", "
      counter += 1
@@ -20,7 +20,6 @@ def oxford_comma(array)
      array[counter] = array[counter] + ", and "
      counter += 1
      array.join
-     array
      end
    end
  end
